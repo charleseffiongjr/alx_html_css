@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(CSS-Advanced/Object.png);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+  .Schooled {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: right;
+     text-align: center;
+    justify-content: space-between; 
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    margin-top: 10rem;
+}
+.p-1{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.p-container {
+    display: flex; /* Set the container as a flex container */
+    gap: 20px; /* Adds space between the paragraphs */
+    justify-content: center; /* Centers the paragraphs horizontally */
+    margin-bottom: ;
+}
+
+
+button {
+    background-color: rgb(182, 98, 182);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+} 
+span{
+    color: rgb(182, 98, 182);
+    
+    
+}
+h2{
+    margin-top: 100px;
+    margin-left: 35rem;
+}
+
+.quote {
+    background-color: rgb(182, 98, 182);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote-img{
+    margin-left: 12rem;
+    
+}
+blockquote{
+    margin-right: 10rem;
+}
+.presenter {
+    margin-right: 44rem;
+    margin-top: 2rem;
+}
+.weather{
+    margin-right: 44.5rem; 
+}
+
+.author {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#bruce{
+    border-radius: 50%;
+}
+
+.rate{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    
+    width: ;
+    margin-left: 5rem;
+}
+.header2{
+    position: relative;
+    bottom: 5rem;
+}
+.Phillip{
+    height: 40px;
+    margin-top: 20px;
+}
+h4{
+    position: absolute;
+   margin-left: 70px;
+   top: 98rem;
+   color: rgb(182, 98, 182);
+}
+.rating{
+    padding-bottom: 40px;
+}
+.min{ position: absolute;
+margin-left: 220px;    
+top: 101rem;
+color: rgb(182, 98, 182);
+}
+.Membership{
+    background-color: #29354c;
+   color: white;
+}
+.membership{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 80px;
+}
+.header3{
+    position: relative;
+    top: 40px;
+    color: white;
+    font-weight: lighter;
+}
+.register{
+    position: relative;
+    bottom: 40px;
+    background-color: rgb(182, 98, 182);
+
+}
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    
+        padding: 30px 0;
+
+}
+.row-block{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 80px;
+}
+footer{
+    background-color:#29354c;
+    
+}
+.footer-img{
+    height: 30px;
+    border-radius: 50px ;
+    margin-right: 30px;
+    width: 15%;
+
+}
+.row-block{
+    display:flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+.foot-im{
+    display: block;
+    margin-left: 20px;
+}
+
+.copy{
+    text-align: center;
+    color: grey;
+
+}
+.FAQ{
+    margin-left: 40rem;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    button {
+        width: 100%;
+    }
+}
