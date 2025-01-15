@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
 }
 main {
-  width: 1000px;
+  width: 100%;
 }
 nav {
   display: flex;
