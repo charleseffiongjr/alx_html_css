@@ -8,7 +8,12 @@ body{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
     
+    
+}
+main{
+    width: 1000px;
 }
 nav{
     display: flex;
@@ -57,24 +62,43 @@ button{
  font-weight: lighter;
 
 }
+.img{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 7rem;
+    line-height: 2;
+}
+h2{
+    margin-bottom: 70px;
+}
 
-/* Styles for large screens (desktops) */
-@media (max-width: 1024px) {
-    body {
-        font-size: 16px;
+.what-we-do{
+    text-align: center;
+    margin-top: 12rem;
+    font-size: 20px;
+}
+.icon{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 2000px) {
+    main {
+        width: 100%;
     }
 }
 
-/* Styles for tablets */
-@media  (max-width: 750px){
-    body {
-        font-size: 14px;
+
+@media (max-width: 1168px) {
+    main {
+        width: 100%;
     }
 }
 
-/* Styles for mobile screens */
-@media (max-width: 480px) {
-    body {
-        font-size: 12px;
+
+@media (max-width: 700px) {
+    main {
+        width: 100%;
     }
 }

@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/headphones_hero_1.jpg);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+main {
+  width: 1000px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 30px 150px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  margin-left: 30px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+.first-div {
+  text-align: center;
+  color: white;
+  margin-top: 17rem;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 30px;
+}
+button {
+  border-radius: 40px;
+  height: 2rem;
+  width: 10%;
+  color: white;
+  background-color: rgb(241, 125, 112);
+  border: none;
+  margin-top: 4rem;
+}
+.p-1 {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.img {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 7rem;
+  line-height: 2;
+  margin-bottom: 90px;
+}
+h2 {
+  margin-bottom: 70px;
+}
+
+.what-we-do {
+  text-align: center;
+  margin-top: 12rem;
+  font-size: 20px;
+}
+.icon {
+  margin-bottom: 50px;
+}
+.section-1 {
+  background-image: url(images/headphones_hero_2.jpg);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+.second-heading {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+}
+.p-2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.img-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  margin-bottom: ;
+}
+.img-2 {
+  background-image: url(images/pentagone.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin: 2rem 1rem;
+  color: white;
+}
+.img-2 h2 {
+  font-size: xx-large;
+  margin-top: 5rem;
+}
+.img-2 p {
+  font-size: x-small;
+  position: relative;
+  bottom: 3rem;
+}
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+label {
+  position: relative;
+  top: 16px;
+}
+.contact-us {
+  margin-left: 36rem;
+}
+.contact {
+  text-align: center;
+  margin-top: 6rem;
+}
+.call{
+    border-radius: 40px;
+    height: 2.5rem;
+    width: 20%;
+    color: white;
+    background-color: rgb(253, 127, 127);
+    border: none;
+    margin-top: 4rem;
+    font-size: 17px;
+    margin-left: 45px;
+    
+}
+
+@media (max-width: 2000px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1168px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    width: 100%;
+  }
+}
